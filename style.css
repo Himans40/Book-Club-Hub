@@ -1,0 +1,187 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    
+    color: #111827;
+    line-height: 1.6;
+}
+h2, h6 {
+margin: 0;
+}
+header{
+  display: flex;
+  height: 150px;
+  max-width: 100%;
+  
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  
+}
+header>div#tts{
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(56,92,103);
+  /* allow the header inner wrapper to stretch full width of the header */
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+div#title1{
+  
+  display: flex;
+  
+}
+div#title{
+  display: flex;
+  flex-direction: column;
+  gap: 0;            
+  justify-content: center; 
+}
+h6{
+  font-weight: normal;
+}
+div#title h2,
+div#title h6 {
+  margin: 0;        
+  line-height: 1;   
+}
+
+div#navbar{
+  width: 50%;
+  
+}
+nav{
+  display: flex;
+  justify-content: start;
+  gap: 120px;
+
+}
+nav>a{
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+}
+
+section#container{
+  margin: 0px auto;
+  
+}
+
+section#container>div.cards>div{
+  box-sizing: border-box;
+  width: 565px;           
+  
+  border-radius: 20px;
+  overflow: hidden;           
+  display: flex;
+  flex-direction: column;     
+  background: #fff;
+  
+}
+section#container>div.cards>div:hover{
+  box-shadow: 0px 0px 15px 2px black ;
+}
+
+section#container>div.cards>div img{
+  width: 100%;
+  height: 760px; 
+  display: block;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+section#container>h1{
+  line-height: 0.5;
+  padding: 8px 24px;
+}
+section#container>h2{
+  padding: 8px 24px;
+  line-height: 0.5;
+  margin-bottom: 30px;
+  font-weight: normal;
+
+}
+section#container>div.cards>div h2,
+section#container>div.cards>div h3{
+  padding: 8px 40px;
+  line-height: 0.3;
+}
+h3{
+  color: rgb(114,114,131);
+}
+section#container>div.cards>div button{
+  margin: auto; 
+  border-radius: 10px;
+  height: 50px;
+  width: 500px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  
+}
+section{
+  padding: 20px;
+}
+section.bts{
+  background-color: rgb(223, 215, 215);
+}
+section#container{
+  background-color: rgb(223, 215, 215);
+  height: 100%;
+  width: 100%;
+  
+
+}
+
+section.bts>div#bts>nav>a{
+  
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  
+}
+section.bts>div#bts>nav>a:hover{
+  background-color: white;
+}
+section.bts>div#bts{
+  background-color: rgb(236,236,240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 750px;
+  padding-left: 20px;
+}
+section.navbar{
+  height: 50px;
+  width: 100%;
+}
+section#container>div.cards{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin: auto;
+  padding-left: 20px;
+  justify-content: flex-start;
+  gap: 50px 250px;
+  }
+button{
+  font-size: 25px;
+  border-radius: 5px;
+  height: 30px;
+}
